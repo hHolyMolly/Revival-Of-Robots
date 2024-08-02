@@ -1,0 +1,810 @@
+@media (min-width:768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+@media (min-width:1400px) {
+    .container {
+        max-width: 1800px;
+        padding: 0 100px;
+    }
+
+    .header-soc {
+        right: 30px;
+    }
+}
+
+@media (min-width: 991px) {
+    .b-map {
+        align-items: flex-end;
+    }
+
+    .roadmap-chain {
+        margin-right: 200px;
+    }
+}
+
+@media (max-width: 1800px) {
+    .b-how__item {
+        width: 170px;
+    }
+
+    .b-how__item .b-how__arrow {
+        right: -70px;
+    }
+
+    .b-how__right .b-how__item .b-how__arrow {
+        left: -70px;
+    }
+
+    .b-how__center .b-how__item .b-how__arrow {
+        right: -50px;
+    }
+
+    .b-how__item-craft .ic-anim {
+        top: 12px;
+        left: 72%;
+        width: 130px
+    }
+
+    .b-how__title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .b-section .row .col-lg-6 iframe {
+        width: 100%;
+        height: 340px;
+    }
+
+    .header {
+        background: rgb(24, 8, 57);
+        background: -moz-linear-gradient(180deg, rgba(24, 8, 57, 1) 90%, transparent 100%);
+        background: -webkit-linear-gradient(180deg, rgba(24, 8, 57, 1) 90%, transparent 100%);
+        background: linear-gradient(180deg, rgba(24, 8, 57, 1) 90%, transparent 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#180839", endColorstr="#ffffff", GradientType=1);
+    }
+
+    .main-nav {
+        margin-left: 20px;
+    }
+
+    .b-main__wrap {
+        padding: 50px 0;
+    }
+
+    .b-main__wrap-item img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .b-main__wrap-item h6 {
+        font-size: 22px;
+    }
+
+    .b-main__wrap-item p {
+        font-size: 16px;
+    }
+
+    .b-elements__info {
+        font-size: 10px;
+    }
+
+    .elements-left-text {
+        font-size: 100px;
+    }
+}
+
+@media (max-width:1280px) {
+    .b-how__item {
+        width: 140px;
+    }
+
+    .b-how__center .b-how__item .b-how__arrow {
+        right: -60px;
+    }
+
+    .b-how__item-craft .ic-anim {
+        top: 14px;
+        left: 89%;
+        width: 95px;
+    }
+
+    .b-how__title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:1199px) {
+    .b-section .row .col-lg-6 iframe {
+        width: 100%;
+        height: 260px;
+    }
+
+    .b-main #bgVideo {
+        object-position: 75%;
+    }
+
+    .b-main__title {
+        max-width: 800px;
+    }
+
+    .elements-bg {
+        border-left: 15px solid #FFBB0D;
+        border-right: 15px solid #FF45B3;
+    }
+
+    .elements-left-text {
+        font-size: 70px;
+    }
+
+    .b-elements__wrap-left .col-lg-6 {
+        margin-bottom: 10px;
+    }
+
+    .b-elements__info {
+        text-align: center;
+    }
+
+    .b-how__item {
+        width: 120px;
+    }
+
+    .b-how__item .b-how__arrow {
+        width: 50px;
+        right: -60px;
+    }
+
+    .b-how__right .b-how__item .b-how__arrow {
+        left: -60px;
+    }
+
+    .b-how__center .b-how__item .b-how__arrow {
+        width: 30px;
+        right: -50px;
+    }
+
+    .b-how__item-craft .ic-anim {
+        top: 15px;
+        left: 103%;
+        width: 77px
+    }
+
+    .b-how__title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:991px) {
+    .b-section .row .col-lg-6 iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .b-map {
+        align-items: center;
+    }
+
+    .ui-title {
+        font-size: 30px;
+        text-align: center !important;
+    }
+
+    .header {
+        position: fixed;
+        box-shadow: 0 0 10px #00000070;
+        background: #180839;
+        height: 80px;
+        padding: 5px 0;
+    }
+
+    .header:before {
+        content: "";
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        border-bottom: 1px solid #36D3CD;
+        background-color: #180839;
+    }
+
+    .header__logo {
+        position: relative;
+        z-index: 20;
+    }
+
+    .header__container {
+        height: 100%;
+    }
+
+    .header__logo {
+        height: 100%;
+    }
+
+    .header__logo img {
+        height: 100%;
+    }
+
+    .header__whitepaper {
+        display: none;
+    }
+
+    .toggle-menu-button {
+        width: 65px;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    .toggle-menu-button span {
+        max-width: 50px;
+        min-width: 50px;
+        width: 50px;
+        height: 5px;
+        position: relative;
+        border-radius: 4px;
+        background-color: #05d1ee;
+        pointer-events: none;
+        transition: background-color .3s ease .0s;
+    }
+
+    .toggle-menu-button span:before,
+    .toggle-menu-button span:after {
+        content: "";
+        width: 50px;
+        height: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        border-radius: 4px;
+        transition: transform .3s ease .0s;
+        background-color: #05d1ee;
+    }
+
+    .toggle-menu-button span:before {
+        top: -16px;
+    }
+
+    .toggle-menu-button span:after {
+        top: 16px;
+    }
+
+    .toggle-menu-button.active span {
+        background-color: transparent
+    }
+
+    .toggle-menu-button.active span:before {
+        transform: rotate(45deg) translate(10px, 12px)
+    }
+
+    .toggle-menu-button.active span:after {
+        transform: rotate(-45deg) translate(10px, -12px)
+    }
+
+    .header.active .main-nav {
+        right: 0;
+    }
+
+    .main-nav {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        margin-right: 0;
+        background-color: #180839;
+        padding-top: 80px;
+        z-index: 1;
+        box-shadow: 0 0 10px #00000070;
+        overflow: auto;
+        transition: right .5s ease .0s;
+    }
+
+    .main-nav__list {
+        width: 100%;
+        margin-bottom: 0;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .main-nav__item {
+        width: 100%;
+    }
+
+    .main-nav__link {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 26px;
+        background: none;
+    }
+
+    .main-nav__link-market__banner {
+        width: 100%;
+        top: 8px;
+        height: 50px;
+    }
+
+    .main-nav__link-market:hover .main-nav__link-market__banner {
+        transform: scale(1);
+    }
+
+    .main-nav__item-whitepaper {
+        display: block;
+    }
+
+    .header-soc {
+        top: 300px;
+    }
+
+    .b-main {
+        min-height: auto;
+    }
+
+    .b-main__inner {
+        min-height: 100vh;
+    }
+
+    .b-main__title {
+        padding-top: 200px;
+    }
+
+    .b-main__wrap-item {
+        width: 50%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .b-main__wrap-item img {
+        margin-right: 15px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .b-main__wrap {
+        display: none;
+    }
+
+    .b-main__wrap-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 50px 0 0;
+    }
+
+    .b-main .container {
+        position: static;
+    }
+
+    .b-game {
+        padding: 40px 0 20px;
+    }
+
+    .b-game__row {
+        flex-direction: column-reverse;
+    }
+
+    .b-game-col-top {
+        margin-bottom: 15px;
+    }
+
+    .b-mission {
+        padding: 20px 0 35px;
+    }
+
+    .b-rayz {
+        padding: 20px 0 30px;
+    }
+
+    .b-elements {
+        padding: 30px 0;
+    }
+
+    .b-elements__row {
+        flex-direction: column-reverse;
+    }
+
+    .b-elements__info {
+        font-size: 14px;
+    }
+
+    .b-land-mine {
+        padding: 30px 0;
+    }
+
+    .b-land-mine__land {
+        margin-bottom: 40px;
+    }
+
+    .b-staking {
+        padding: 30px 0;
+    }
+
+    .b-prize {
+        padding: 30px 0;
+    }
+
+    .b-prize__row {
+        flex-direction: column-reverse;
+    }
+
+    .b-coming {
+        padding: 50px 0;
+    }
+
+    .b-coming__battles {
+        margin-bottom: 40px;
+    }
+
+    .b-coming-row-second {
+        margin-top: 40px;
+    }
+
+    .b-coming__customization {
+        margin-bottom: 40px;
+    }
+
+    .b-mission .row {
+        margin: 0 -15px;
+    }
+
+    .b-mission .col-md-4 {
+        padding: 0 15px;
+    }
+
+    .elements-left-text {
+        display: none;
+    }
+
+    .b-how__wrap {
+        flex-direction: column;
+    }
+
+    .b-how__left {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .b-how__center {
+        flex-direction: column;
+    }
+
+    .b-how__right {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .b-how__arrow-desktop {
+        display: none;
+    }
+
+    .b-how__arrow-mobile {
+        display: block;
+    }
+
+    .b-how__item {
+        width: 150px;
+        margin: 0;
+    }
+
+    .b-how__item .b-how__arrow {
+        width: 70px;
+        right: -90px;
+    }
+
+    .b-how__item-buy .b-how__arrow {
+        right: auto;
+        left: -90px;
+    }
+
+    .b-how__center .b-how__item .b-how__arrow {
+        width: 50px;
+        right: 0;
+        left: 0;
+        top: auto;
+        bottom: -50px;
+    }
+
+    .b-how__right .b-how__item .b-how__arrow {
+        width: 80px;
+        left: -100px;
+    }
+
+    .b-how__right .b-how__item-bnb .b-how__arrow {
+        left: auto;
+        right: -100px;
+    }
+
+    .b-how__item-craft .ic-anim {
+        top: 19px;
+        left: 86%;
+        width: 97px;
+    }
+
+    .b-how__title {
+        bottom: 15px;
+    }
+
+    .b-roboverse {
+        padding: 50px 0;
+    }
+
+    .footer-soc {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .footer-soc__item {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width:768px) {
+
+    body,
+    .b-elements__info {
+        font-size: 16px;
+    }
+
+    .b-section__wrap {
+        padding: 0 !important;
+    }
+
+    .header__logo {
+        width: 124px;
+    }
+
+    .header-soc {
+        top: 250px;
+    }
+
+    .b-main #bgVideo {
+        object-position: 70%;
+    }
+
+    .b-main__inner {
+        min-height: 85vh;
+        background-position-x: 70%;
+    }
+
+    .b-main__title {
+        padding-top: 140px;
+        max-width: 470px;
+        margin: 0 auto;
+    }
+
+    .b-main__wrap-item {
+        width: 330px;
+    }
+
+    .b-main__btn {
+        width: 230px;
+        bottom: 40px;
+    }
+
+    .b-game {
+        overflow: hidden;
+    }
+
+    .b-coming {
+        overflow: hidden;
+    }
+
+    .b-elements__title {
+        font-size: 26px;
+    }
+
+    .b-mission__wrap {
+        padding: 25px 15px 50px !important;
+    }
+
+    .b-section-9 {
+        min-height: 800px;
+    }
+
+    .footer {
+        padding-top: 69px;
+    }
+}
+
+@media (max-width: 580px) {
+    p {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .b-section .row .col-lg-6 iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .b-land-mine__row-inner {
+        margin-right: -15px !important;
+        margin-left: -15px !important;
+    }
+
+    .b-land-mine__row-inner .col-6 {
+        padding: 0 15px;
+    }
+
+    .b-land-mine__row-inner .ui-title {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .b-coming__row-inner {
+        margin-right: -15px !important;
+        margin-left: -15px !important;
+    }
+
+    .b-coming__row-inner .col-6 {
+        padding: 0 15px;
+    }
+
+    .b-coming__row-inner .ui-title {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .b-coming__battles {
+        margin-bottom: 25px;
+    }
+
+    .b-coming-row-second {
+        margin-top: 25px;
+    }
+
+    .b-coming__customization {
+        margin-bottom: 25px;
+    }
+
+    .b-elements__wrap-left .col-sm-3 {
+        text-align: center;
+        width: 50%;
+    }
+
+    .b-elements__title {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    .b-elements__info {
+        font-size: 12px !important;
+    }
+
+    .b-how__item {
+        width: 100px;
+    }
+
+    .b-how__item .b-how__arrow {
+        width: 40px;
+        right: -45px;
+        top: auto;
+        bottom: 0;
+    }
+
+    .b-how__item-buy .b-how__arrow {
+        right: auto;
+        left: -45px;
+    }
+
+    .b-how__center .b-how__item .b-how__arrow {
+        width: 40px;
+        right: 0;
+        left: 0;
+        bottom: -45px;
+    }
+
+    .b-how__right .b-how__item .b-how__arrow {
+        width: 50px;
+        left: -55px;
+        top: 0;
+        bottom: auto;
+    }
+
+    .b-how__right .b-how__item-bnb .b-how__arrow {
+        left: auto;
+        right: -55px;
+    }
+
+    .b-how__item-craft .ic-anim {
+        top: 18px;
+        left: 126%;
+        width: 53px;
+    }
+
+    .b-how__title {
+        font-size: 12px;
+        bottom: 10px !important;
+    }
+
+    .b-how__item-buy .b-how__title {
+        bottom: 15px !important;
+    }
+
+    .b-section-9 {
+        min-height: 600px;
+    }
+}
+
+@media (max-width:413px) {
+
+    body,
+    .b-elements__info {
+        font-size: 14px;
+    }
+
+    .b-main__wrap-item {
+        padding: 10px 0;
+    }
+
+    .b-elements__group {
+        justify-content: space-between;
+    }
+
+    .b-elements__item {
+        width: 48%;
+        margin: 0 0 40px;
+    }
+}
+
+@media (any-hover: hover) {
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(109, 34, 144);
+    }
+
+    .header-soc__link:hover .ic-second {
+        top: -3px;
+    }
+
+    .header-soc__link .ic:hover {
+        fill: #f2098f;
+    }
+
+    .main-nav__link:hover {
+        color: #F2098F;
+    }
+
+    .main-nav__link.disabled:hover {
+        color: #52eae4 !important;
+    }
+
+    .header__whitepaper:hover p {
+        color: #ff47af;
+    }
+
+    .click-on:active {
+        transform: translateY(2px);
+    }
+}

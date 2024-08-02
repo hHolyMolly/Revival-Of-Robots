@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'raskhalregular';
+    src: url('raskhal-webfont.woff2') format('woff2'),
+         url('raskhal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
